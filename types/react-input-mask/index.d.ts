@@ -38,6 +38,8 @@ export interface Props extends React.InputHTMLAttributes<HTMLInputElement> {
   /**
    * Character to cover unfilled editable parts of mask. Default character is "_". If set to null, unfilled parts will be empty, like in ordinary input.
    */
+  maskChar?: string | null;
+
   maskPlaceholder?: string | null | undefined;
   /**
    * Show mask even in empty input without focus.
